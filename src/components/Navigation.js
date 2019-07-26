@@ -7,14 +7,14 @@ const Navigation = () => {
   return (
     <Styled>
       <Navbar className="NavBar" bg="light" expand="lg">
-        <Navbar.Brand href="#home">Vita Smile Photography</Navbar.Brand>
+        <Navbar.Brand href="#Events">Vita Smile Photography</Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#Events">Events</Nav.Link>
             <Nav.Link href="#Gallery">Gallery</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            <NavDropdown title="Contact" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
@@ -30,11 +30,12 @@ const Navigation = () => {
 
 const Styled = styled.div`
   .NavBar {
-    padding-left: 20%;
     position: fixed;
-    top: 0;
-    z-index: 3000;
+    padding-left: 20%;
     width: 100%;
+    z-index: 3000;
+    top: 0;
+    background-image: linear-gradient(white, #e6e6e6);
   }
 `
 export default Navigation
