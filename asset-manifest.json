@@ -1,15 +1,18 @@
 {
   "files": {
     "main.css": "/Vita-Smile-Photography/static/css/main.cfda8877.chunk.css",
-    "main.js": "/Vita-Smile-Photography/static/js/main.7838dc7a.chunk.js",
-    "main.js.map": "/Vita-Smile-Photography/static/js/main.7838dc7a.chunk.js.map",
+    "main.js": "/Vita-Smile-Photography/static/js/main.47e87760.chunk.js",
+    "main.js.map": "/Vita-Smile-Photography/static/js/main.47e87760.chunk.js.map",
     "runtime~main.js": "/Vita-Smile-Photography/static/js/runtime~main.ae49b852.js",
     "runtime~main.js.map": "/Vita-Smile-Photography/static/js/runtime~main.ae49b852.js.map",
-    "static/js/2.197479ae.chunk.js": "/Vita-Smile-Photography/static/js/2.197479ae.chunk.js",
-    "static/js/2.197479ae.chunk.js.map": "/Vita-Smile-Photography/static/js/2.197479ae.chunk.js.map",
+    "static/js/2.997bae97.chunk.js": "/Vita-Smile-Photography/static/js/2.997bae97.chunk.js",
+    "static/js/2.997bae97.chunk.js.map": "/Vita-Smile-Photography/static/js/2.997bae97.chunk.js.map",
     "index.html": "/Vita-Smile-Photography/index.html",
-    "precache-manifest.0b368059c73f24851baebc6dab2286c1.js": "/Vita-Smile-Photography/precache-manifest.0b368059c73f24851baebc6dab2286c1.js",
+    "precache-manifest.e9a35b0a3a43d3fe9f97386c48b3bf11.js": "/Vita-Smile-Photography/precache-manifest.e9a35b0a3a43d3fe9f97386c48b3bf11.js",
     "service-worker.js": "/Vita-Smile-Photography/service-worker.js",
-    "static/css/main.cfda8877.chunk.css.map": "/Vita-Smile-Photography/static/css/main.cfda8877.chunk.css.map"
+    "static/css/main.cfda8877.chunk.css.map": "/Vita-Smile-Photography/static/css/main.cfda8877.chunk.css.map",
+    "static/media/angelOne.jpg": "/Vita-Smile-Photography/static/media/angelOne.7876cd2d.jpg",
+    "static/media/angelThree.jpg": "/Vita-Smile-Photography/static/media/angelThree.37d1b887.jpg",
+    "static/media/angelTwo.jpg": "/Vita-Smile-Photography/static/media/angelTwo.2bdc6611.jpg"
   }
 }
