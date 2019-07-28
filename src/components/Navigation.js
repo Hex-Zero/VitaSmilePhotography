@@ -3,15 +3,19 @@ import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
 import NavDropdown from "react-bootstrap/NavDropdown"
 import styled from "styled-components"
+import cam from "../assets/cam.png"
 const Navigation = () => {
   return (
     <Styled>
-      <Navbar className="NavBar" bg="light" expand="lg">
-        <Navbar.Brand href="#Events">Vita Smile Photography</Navbar.Brand>
+      <Navbar className="NavBar" bg="light" expand="md">
+        <Navbar.Brand href="#Events">
+          <img src={cam} alt="" />
+          Vita Smile Photography
+        </Navbar.Brand>
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
+        <Navbar.Toggle aria-controls="basic-navbar-nav " />
+        <Navbar.Collapse className="justify-content-end Links" id="basic-navbar-nav">
+          <Nav>
             <Nav.Link href="#Events">Events</Nav.Link>
             <Nav.Link href="#Gallery">Gallery</Nav.Link>
             <NavDropdown title="Contact" id="basic-nav-dropdown">
@@ -29,13 +33,32 @@ const Navigation = () => {
 }
 
 const Styled = styled.div`
+  .navbar-toggler {
+    margin-right: 4%;
+  }
+
+  .navbar-brand {
+    width: 200px;
+  }
+  img {
+    width: 23%;
+    padding-right: 1%;
+  }
+  .Links {
+    padding-right: 6%;
+  }
   .NavBar {
     position: fixed;
-    padding-left: 20%;
+    padding-left: 8%;
     width: 100%;
     z-index: 3000;
     top: 0;
     background-image: linear-gradient(white, #e6e6e6);
+  }
+  @media only screen and (max-width: 500px) {
+    .NavBar {
+      padding-left: 5%;
+    }
   }
 `
 export default Navigation

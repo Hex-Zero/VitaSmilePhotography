@@ -17,6 +17,7 @@ const TopCarousel = ({ style, id }) => {
     <Styled>
       <div className="caruselWrapper">
         <Carousel
+          style={style}
           id={id}
           interval={1500}
           className="Car1"
@@ -52,15 +53,13 @@ const TopCarousel = ({ style, id }) => {
 }
 
 const Styled = styled.div`
-  border-top: solid 1px #dcdcdc;
   .caruselWrapper {
     background: #f8f8f8;
     width: 100%;
   }
   .Car1 {
-    padding-top: 55px;
     margin: 0 auto;
-    width: 82%;
+    width: 88%;
     height: 90%;
   }
 `
