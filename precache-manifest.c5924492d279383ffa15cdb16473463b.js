@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8b9bd2546709f9b0e6e29df4f61bf249",
+    "revision": "b2704908ef00ab78683a7791641074ac",
     "url": "/Vita-Smile-Photography/index.html"
   },
   {
-    "revision": "159692e5d3bcc934629f",
+    "revision": "e8f2d0d5c70761950a5c",
     "url": "/Vita-Smile-Photography/static/css/main.34de6062.chunk.css"
   },
   {
-    "revision": "f65806a6ea134751d618",
-    "url": "/Vita-Smile-Photography/static/js/2.29331efd.chunk.js"
+    "revision": "6e9fbeacea27ca86cb15",
+    "url": "/Vita-Smile-Photography/static/js/2.0a4545af.chunk.js"
   },
   {
-    "revision": "159692e5d3bcc934629f",
-    "url": "/Vita-Smile-Photography/static/js/main.ef9ba314.chunk.js"
+    "revision": "e8f2d0d5c70761950a5c",
+    "url": "/Vita-Smile-Photography/static/js/main.0bd1efb0.chunk.js"
   },
   {
     "revision": "d662fe3bd477f5254ca3",
@@ -30,5 +30,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2bdc6611c478b4393ee10f436172e0b0",
     "url": "/Vita-Smile-Photography/static/media/angelTwo.2bdc6611.jpg"
+  },
+  {
+    "revision": "3f8cc908fff1f8664188cc2efd389679",
+    "url": "/Vita-Smile-Photography/static/media/cam.3f8cc908.png"
   }
 ]);
