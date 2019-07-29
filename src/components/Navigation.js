@@ -4,11 +4,12 @@ import Nav from "react-bootstrap/Nav"
 import NavDropdown from "react-bootstrap/NavDropdown"
 import styled from "styled-components"
 import cam from "../assets/cam.png"
+import { Link } from "react-router-dom"
 const Navigation = () => {
   return (
     <Styled>
       <Navbar className="NavBar" bg="light" expand="md">
-        <Navbar.Brand href="#Events">
+        <Navbar.Brand href="/">
           <img src={cam} alt="" />
           Vita Smile Photography
         </Navbar.Brand>
@@ -16,14 +17,20 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav " />
         <Navbar.Collapse className="justify-content-end Links" id="basic-navbar-nav">
           <Nav>
-            <Nav.Link href="#Events">Events</Nav.Link>
-            <Nav.Link href="#Gallery">Gallery</Nav.Link>
+            <Nav.Link as={Link} to="/">
+              Home
+            </Nav.Link>
+            <Nav.Link as={Link} to="/About">
+              About
+            </Nav.Link>
             <NavDropdown title="Contact" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.1">Call</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">E-mail</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Location</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/Pricing">
+                Pricing
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

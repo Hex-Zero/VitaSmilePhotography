@@ -1,9 +1,10 @@
 import React, { useState } from "react"
 import Carousel from "react-bootstrap/Carousel"
+import styled from "styled-components"
 import angelOne from "../assets/topcarousel/angelOne.jpg"
 import angelTwo from "../assets/topcarousel/angelTwo.jpg"
 import angelThree from "../assets/topcarousel/angelThree.jpg"
-import styled from "styled-components"
+import uuid from "uuid"
 
 const TopCarousel = ({ style, id }) => {
   const [index, setIndex] = useState(0)
@@ -13,39 +14,32 @@ const TopCarousel = ({ style, id }) => {
     setIndex(selectedIndex)
     setDirection(e.direction)
   }
+
+  const src = [angelOne, angelTwo, angelThree]
+
   return (
     <Styled>
       <div className="caruselWrapper">
         <Carousel
           style={style}
           id={id}
-          interval={1500}
+          interval={1800}
           className="Car1"
           activeIndex={index}
           pauseOnHover={false}
           direction={direction}
           onSelect={handleSelect}>
-          <Carousel.Item>
-            <img className=" .img-fluid d-block w-100" src={angelOne} alt="First slide" />
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className=" .img-fluid d-block w-100" src={angelTwo} alt="Third slide" />
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className=" .img-fluid d-block w-100" src={angelThree} alt="Third slide" />
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
+          {src.map(c => {
+            return (
+              <Carousel.Item key={uuid()}>
+                <img className=" .img-fluid d-block w-100" src={c} alt="First slide" />
+                {/* <Carousel.Caption>
+                  <h3>First slide label</h3>
+                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </Carousel.Caption> */}
+              </Carousel.Item>
+            )
+          })}
         </Carousel>
       </div>
     </Styled>
