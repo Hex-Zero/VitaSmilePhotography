@@ -9,7 +9,7 @@ const Navigation = () => {
   return (
     <Styled>
       <Navbar className="NavBar" bg="light" expand="md">
-        <Navbar.Brand href="/">
+        <Navbar.Brand as={Link} to="/Vita-Smile-Photography/">
           <img src={cam} alt="" />
           Vita Smile Photography
         </Navbar.Brand>
@@ -17,10 +17,10 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav " />
         <Navbar.Collapse className="justify-content-end Links" id="basic-navbar-nav">
           <Nav>
-            <Nav.Link as={Link} to="/">
+            <Nav.Link as={Link} to="/Vita-Smile-Photography/">
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/About">
+            <Nav.Link as={Link} to="/Vita-Smile-Photography/About">
               About
             </Nav.Link>
             <NavDropdown title="Contact" id="basic-nav-dropdown">
@@ -28,7 +28,7 @@ const Navigation = () => {
               <NavDropdown.Item href="#action/3.2">E-mail</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Location</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to="/Pricing">
+              <NavDropdown.Item as={Link} to="/Vita-Smile-Photography/Pricing">
                 Pricing
               </NavDropdown.Item>
             </NavDropdown>
