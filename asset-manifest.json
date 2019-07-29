@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/Vita-Smile-Photography/static/css/main.34de6062.chunk.css",
-    "main.js": "/Vita-Smile-Photography/static/js/main.0bd1efb0.chunk.js",
-    "main.js.map": "/Vita-Smile-Photography/static/js/main.0bd1efb0.chunk.js.map",
+    "main.css": "/Vita-Smile-Photography/static/css/main.1b398baf.chunk.css",
+    "main.js": "/Vita-Smile-Photography/static/js/main.4b03c791.chunk.js",
+    "main.js.map": "/Vita-Smile-Photography/static/js/main.4b03c791.chunk.js.map",
     "runtime~main.js": "/Vita-Smile-Photography/static/js/runtime~main.ae49b852.js",
     "runtime~main.js.map": "/Vita-Smile-Photography/static/js/runtime~main.ae49b852.js.map",
-    "static/js/2.0a4545af.chunk.js": "/Vita-Smile-Photography/static/js/2.0a4545af.chunk.js",
-    "static/js/2.0a4545af.chunk.js.map": "/Vita-Smile-Photography/static/js/2.0a4545af.chunk.js.map",
+    "static/js/2.f994ff9d.chunk.js": "/Vita-Smile-Photography/static/js/2.f994ff9d.chunk.js",
+    "static/js/2.f994ff9d.chunk.js.map": "/Vita-Smile-Photography/static/js/2.f994ff9d.chunk.js.map",
     "index.html": "/Vita-Smile-Photography/index.html",
-    "precache-manifest.c5924492d279383ffa15cdb16473463b.js": "/Vita-Smile-Photography/precache-manifest.c5924492d279383ffa15cdb16473463b.js",
+    "precache-manifest.cae779a9bcbddbc5c79a5e10e67c155d.js": "/Vita-Smile-Photography/precache-manifest.cae779a9bcbddbc5c79a5e10e67c155d.js",
     "service-worker.js": "/Vita-Smile-Photography/service-worker.js",
-    "static/css/main.34de6062.chunk.css.map": "/Vita-Smile-Photography/static/css/main.34de6062.chunk.css.map",
+    "static/css/main.1b398baf.chunk.css.map": "/Vita-Smile-Photography/static/css/main.1b398baf.chunk.css.map",
     "static/media/angelOne.jpg": "/Vita-Smile-Photography/static/media/angelOne.7876cd2d.jpg",
     "static/media/angelThree.jpg": "/Vita-Smile-Photography/static/media/angelThree.37d1b887.jpg",
     "static/media/angelTwo.jpg": "/Vita-Smile-Photography/static/media/angelTwo.2bdc6611.jpg",
-    "static/media/cam.png": "/Vita-Smile-Photography/static/media/cam.3f8cc908.png"
+    "static/media/birthday-cake.png": "/Vita-Smile-Photography/static/media/birthday-cake.5e79c945.png",
+    "static/media/cam.png": "/Vita-Smile-Photography/static/media/cam.3f8cc908.png",
+    "static/media/dummy.png": "/Vita-Smile-Photography/static/media/dummy.b045e365.png",
+    "static/media/marriage.png": "/Vita-Smile-Photography/static/media/marriage.2a5bc474.png",
+    "static/media/party.png": "/Vita-Smile-Photography/static/media/party.536a0b56.png"
   }
 }
