@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Vita-Smile-Photography/precache-manifest.0be7a138965c1cf7c3f58e847238830e.js"
+  "/Vita-Smile-Photography/precache-manifest.80757dfe312376230d7be63a2efb99c3.js"
 );
 
 self.addEventListener('message', (event) => {
