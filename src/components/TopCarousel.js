@@ -1,12 +1,9 @@
 import React, { useState } from "react"
 import Carousel from "react-bootstrap/Carousel"
 import styled from "styled-components"
-import angelOne from "../assets/topcarousel/angelOne.jpg"
-import angelTwo from "../assets/topcarousel/angelTwo.jpg"
-import angelThree from "../assets/topcarousel/angelThree.jpg"
 import uuid from "uuid"
 
-const TopCarousel = ({ style, id }) => {
+const TopCarousel = ({ style, id, src }) => {
   const [index, setIndex] = useState(0)
   const [direction, setDirection] = useState(null)
 
@@ -15,15 +12,13 @@ const TopCarousel = ({ style, id }) => {
     setDirection(e.direction)
   }
 
-  const src = [angelOne, angelTwo, angelThree]
-
   return (
     <Styled>
       <div className="caruselWrapper">
         <Carousel
           style={style}
           id={id}
-          interval={1800}
+          interval={2300}
           className="Car1"
           activeIndex={index}
           pauseOnHover={false}
@@ -48,12 +43,13 @@ const TopCarousel = ({ style, id }) => {
 
 const Styled = styled.div`
   .caruselWrapper {
-    background: #f8f8f8;
+    background: linear-gradient(90deg, rgb(4, 5, 119) 0%, rgb(28, 1, 76) 48%, rgba(4, 5, 119) 100%);
+
     width: 100%;
   }
   .Car1 {
     margin: 0 auto;
-    width: 88%;
+    width: 94%;
     height: 90%;
   }
 `

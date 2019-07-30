@@ -3,21 +3,30 @@ import TopCarousel from "../components/TopCarousel"
 import Cards from "../components/Cards"
 import Weddings from "../assets/contentTXT/Weddings.js"
 import SideNavigation from "../components/SideNavigation"
+import styled from "styled-components"
+import { WeddingArray, ParentsArray, PortraitArray, PartyArray } from "../assets/Arrays"
 
 const Home = () => {
   return (
-    <>
+    <Styled>
       <SideNavigation />
-      <TopCarousel style={{ marginTop: "56px" }} id="Weddings" />
+      <TopCarousel style={{ marginTop: "56px" }} id="Weddings" src={WeddingArray} />
       <Cards name="Weddings" content={Weddings} />
-      <TopCarousel id="Birthdays" />
-      <Cards name="Birthdays" content={Weddings} />
-      <TopCarousel id="Party" />
+      <TopCarousel id="Party" src={PartyArray} />
       <Cards name="Party" content={Weddings} id="Footer" />
-      <TopCarousel id="BabyShowers" />
-      <Cards name="BabyShowers" content={Weddings} />
-    </>
+      <TopCarousel id="BabyShowers" src={ParentsArray} />
+      <Cards name="Parents And Children" content={Weddings} />
+      <TopCarousel id="Portrait" src={PortraitArray} />
+      <Cards name="Portrait" content={Weddings} />
+    </Styled>
   )
 }
+const Styled = styled.div`
+  margin: 0 auto;
+  width: 66.6%;
+  @media only screen and (max-width: 767px) {
+    width: 100%;
+  }
+`
 
 export default Home

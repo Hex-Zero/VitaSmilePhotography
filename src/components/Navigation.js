@@ -1,71 +1,118 @@
-import React from "react"
+import React, { useState } from "react"
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
 import NavDropdown from "react-bootstrap/NavDropdown"
 import styled from "styled-components"
-import cam from "../assets/cam.png"
 import { Link } from "react-router-dom"
+import Phone from "./Phone"
+import Modal from "react-bootstrap/Modal"
+import Button from "react-bootstrap/Button"
 const Navigation = () => {
+  const [show, setShow] = useState(false)
+  const handleClose = () => setShow(false)
+  const handleShow = () => setShow(true)
   return (
     <Styled>
-      <Navbar className="NavBar" bg="light" expand="md">
-        <Navbar.Brand as={Link} to="/Vita-Smile-Photography/">
-          <img src={cam} alt="" />
+      <Phone />
+      <Navbar collapseOnSelect={true} className="NavBar" bg="light" expand="md">
+        <Navbar.Brand as={Link} href="#" to="/Vita-Smile-Photography/">
           Vita Smile Photography
         </Navbar.Brand>
-
-        <Navbar.Toggle aria-controls="basic-navbar-nav " />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end Links" id="basic-navbar-nav">
           <Nav>
-            <Nav.Link as={Link} to="/Vita-Smile-Photography/">
+            <Nav.Link as={Link} href="#" to="/Vita-Smile-Photography/">
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/Vita-Smile-Photography/About">
+            <Nav.Link as={Link} href="#" to="/Vita-Smile-Photography/About">
               About
             </Nav.Link>
-            <NavDropdown title="Contact" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Call</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">E-mail</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Location</NavDropdown.Item>
+            <NavDropdown className="Links" title="Contact" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#" onClick={handleShow}>
+                Call Or Email
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                as="a"
+                href="https://www.google.com/maps/@52.569658,-0.2263321,19.33z"
+                target="_blank">
+                Location
+              </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to="/Vita-Smile-Photography/Pricing">
+              <NavDropdown.Item as={Link} href="#" to="/Vita-Smile-Photography/Pricing">
                 Pricing
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Call Or Email Me</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>Number here</Modal.Body>
+        <Modal.Body>Email here</Modal.Body>
+        <Modal.Footer>
+          <Button as="a" variant="warning" href="tel:+447933640414">
+            Call Now
+          </Button>
+          <Button as="a" variant="warning" href="mailto:hex0@live.com">
+            Email Now
+          </Button>
+          {/* <Button variant="secondary" onClick={handleClose}>
+              Close
+            </Button> */}
+        </Modal.Footer>
+      </Modal>
     </Styled>
   )
 }
 
 const Styled = styled.div`
+  display: flex;
+  justify-content: center;
+  width: 100%;
   .navbar-toggler {
-    margin-right: 4%;
+    font-size: 1rem;
   }
-
-  .navbar-brand {
+  .modal-content {
     width: 200px;
   }
-  img {
-    width: 23%;
-    padding-right: 1%;
+  .navbar-brand {
+    font-size: 29.5px;
+    font-family: "Norican", cursive;
+
+    background: -webkit-linear-gradient(
+      89deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(7, 28, 57, 1) 24%,
+      rgba(15, 60, 120, 1) 50%,
+      rgba(15, 60, 120, 1) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0;
+    width: 267px;
   }
-  .Links {
-    padding-right: 6%;
+  .nav-link {
+    font-size: 13px;
+  }
+  .dropdown-item {
+    font-size: 13px;
   }
   .NavBar {
+    padding: 0.378rem 1rem;
     position: fixed;
-    padding-left: 8%;
-    width: 100%;
-    z-index: 3000;
+    width: 66.6%;
+    z-index: 5;
     top: 0;
     background-image: linear-gradient(white, #e6e6e6);
   }
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 767px) {
     .NavBar {
+      width: 100%;
       padding-left: 5%;
     }
   }
 `
+
 export default Navigation
