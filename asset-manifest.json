@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Vita-Smile-Photography/static/css/main.1b398baf.chunk.css",
-    "main.js": "/Vita-Smile-Photography/static/js/main.3f10071f.chunk.js",
-    "main.js.map": "/Vita-Smile-Photography/static/js/main.3f10071f.chunk.js.map",
+    "main.js": "/Vita-Smile-Photography/static/js/main.23b79043.chunk.js",
+    "main.js.map": "/Vita-Smile-Photography/static/js/main.23b79043.chunk.js.map",
     "runtime~main.js": "/Vita-Smile-Photography/static/js/runtime~main.ae49b852.js",
     "runtime~main.js.map": "/Vita-Smile-Photography/static/js/runtime~main.ae49b852.js.map",
-    "static/js/2.f09bfd20.chunk.js": "/Vita-Smile-Photography/static/js/2.f09bfd20.chunk.js",
-    "static/js/2.f09bfd20.chunk.js.map": "/Vita-Smile-Photography/static/js/2.f09bfd20.chunk.js.map",
+    "static/js/2.13ba1dd1.chunk.js": "/Vita-Smile-Photography/static/js/2.13ba1dd1.chunk.js",
+    "static/js/2.13ba1dd1.chunk.js.map": "/Vita-Smile-Photography/static/js/2.13ba1dd1.chunk.js.map",
     "index.html": "/Vita-Smile-Photography/index.html",
-    "precache-manifest.017d63fe8c9df23d9438f8e2a6ee9bde.js": "/Vita-Smile-Photography/precache-manifest.017d63fe8c9df23d9438f8e2a6ee9bde.js",
+    "precache-manifest.c7046321e51b03b3ae64bae66e17e368.js": "/Vita-Smile-Photography/precache-manifest.c7046321e51b03b3ae64bae66e17e368.js",
     "service-worker.js": "/Vita-Smile-Photography/service-worker.js",
     "static/css/main.1b398baf.chunk.css.map": "/Vita-Smile-Photography/static/css/main.1b398baf.chunk.css.map",
     "static/media/Wedding-1.png": "/Vita-Smile-Photography/static/media/Wedding-1.a8f03485.png",
@@ -18,9 +18,10 @@
     "static/media/Wedding-5.png": "/Vita-Smile-Photography/static/media/Wedding-5.e42ff22c.png",
     "static/media/angelOne.jpg": "/Vita-Smile-Photography/static/media/angelOne.7876cd2d.jpg",
     "static/media/angelTwo.jpg": "/Vita-Smile-Photography/static/media/angelTwo.2bdc6611.jpg",
-    "static/media/birthday-cake.png": "/Vita-Smile-Photography/static/media/birthday-cake.5e79c945.png",
     "static/media/dummy.png": "/Vita-Smile-Photography/static/media/dummy.b045e365.png",
     "static/media/marriage.png": "/Vita-Smile-Photography/static/media/marriage.2a5bc474.png",
-    "static/media/party.png": "/Vita-Smile-Photography/static/media/party.536a0b56.png"
+    "static/media/party.png": "/Vita-Smile-Photography/static/media/party.536a0b56.png",
+    "static/media/portrait.png": "/Vita-Smile-Photography/static/media/portrait.65486b9d.png",
+    "static/media/vaucherWithRibbon.png": "/Vita-Smile-Photography/static/media/vaucherWithRibbon.426c4672.png"
   }
 }
