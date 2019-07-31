@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1354b3aeffe9c4cc60bed45767d4ac63",
+    "revision": "6e91a14aa027de1263c6f0cf6cdc6df5",
     "url": "/Vita-Smile-Photography/index.html"
   },
   {
-    "revision": "ee18454fc37a22514331",
-    "url": "/Vita-Smile-Photography/static/css/main.1b398baf.chunk.css"
+    "revision": "7392bd4774a1dcd92579",
+    "url": "/Vita-Smile-Photography/static/css/main.7086c508.chunk.css"
   },
   {
-    "revision": "aa241753a727cae80c03",
-    "url": "/Vita-Smile-Photography/static/js/2.8048b305.chunk.js"
+    "revision": "d92164a9d779125fc6de",
+    "url": "/Vita-Smile-Photography/static/js/2.886ae58b.chunk.js"
   },
   {
-    "revision": "ee18454fc37a22514331",
-    "url": "/Vita-Smile-Photography/static/js/main.cab2ec37.chunk.js"
+    "revision": "7392bd4774a1dcd92579",
+    "url": "/Vita-Smile-Photography/static/js/main.bdafae8e.chunk.js"
   },
   {
     "revision": "d662fe3bd477f5254ca3",
     "url": "/Vita-Smile-Photography/static/js/runtime~main.ae49b852.js"
   },
   {
-    "revision": "7876cd2d587c1ee4deed3cf8503b8835",
-    "url": "/Vita-Smile-Photography/static/media/angelOne.7876cd2d.jpg"
+    "revision": "4b79ec8c38b3a6be30c2cb6c537a6f32",
+    "url": "/Vita-Smile-Photography/static/media/5stars.4b79ec8c.png"
   },
   {
-    "revision": "2bdc6611c478b4393ee10f436172e0b0",
-    "url": "/Vita-Smile-Photography/static/media/angelTwo.2bdc6611.jpg"
+    "revision": "1df68d60ca02f1036e28ea803f9c137d",
+    "url": "/Vita-Smile-Photography/static/media/back.1df68d60.jpg"
   },
   {
     "revision": "b045e36534c25bf4861f34bf418ccbc8",
