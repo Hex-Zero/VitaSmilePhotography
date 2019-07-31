@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "09da6a27f683821d5ecfdac41b068e34",
+    "revision": "949e497610bed229d3d2eeca4121f97d",
     "url": "/Vita-Smile-Photography/index.html"
   },
   {
-    "revision": "1adbde7c59b4eea0f521",
+    "revision": "27ebb71c3604802c77fc",
     "url": "/Vita-Smile-Photography/static/css/main.7086c508.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Vita-Smile-Photography/static/js/2.cb60cecc.chunk.js"
   },
   {
-    "revision": "1adbde7c59b4eea0f521",
-    "url": "/Vita-Smile-Photography/static/js/main.3813ade7.chunk.js"
+    "revision": "27ebb71c3604802c77fc",
+    "url": "/Vita-Smile-Photography/static/js/main.307d86a8.chunk.js"
   },
   {
     "revision": "d662fe3bd477f5254ca3",
