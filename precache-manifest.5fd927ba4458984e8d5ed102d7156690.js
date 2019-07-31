@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "949e497610bed229d3d2eeca4121f97d",
+    "revision": "f40a1b532787259e5c2c90574a37daa9",
     "url": "/Vita-Smile-Photography/index.html"
   },
   {
-    "revision": "27ebb71c3604802c77fc",
+    "revision": "2a954ca9db78f4529c6a",
     "url": "/Vita-Smile-Photography/static/css/main.7086c508.chunk.css"
   },
   {
-    "revision": "2ebaa864011a25925a06",
-    "url": "/Vita-Smile-Photography/static/js/2.cb60cecc.chunk.js"
+    "revision": "132169e5ebaf1190e6e6",
+    "url": "/Vita-Smile-Photography/static/js/2.0cc29b3b.chunk.js"
   },
   {
-    "revision": "27ebb71c3604802c77fc",
-    "url": "/Vita-Smile-Photography/static/js/main.307d86a8.chunk.js"
+    "revision": "2a954ca9db78f4529c6a",
+    "url": "/Vita-Smile-Photography/static/js/main.d331fe72.chunk.js"
   },
   {
     "revision": "d662fe3bd477f5254ca3",
@@ -134,6 +134,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "90c3634610c2cb1df427dceb7ec19a89",
     "url": "/Vita-Smile-Photography/static/media/portrait6.90c36346.png"
+  },
+  {
+    "revision": "11dd46f9a6d2f0cd1b6828a41d731123",
+    "url": "/Vita-Smile-Photography/static/media/react_bootstrap_logo.11dd46f9.png"
+  },
+  {
+    "revision": "abf87b5454b2685034dbef5104d6ae05",
+    "url": "/Vita-Smile-Photography/static/media/reactlogo.abf87b54.png"
   },
   {
     "revision": "426c467263b060294873eeedfe323c82",
