@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Vita-Smile-Photography/static/css/main.1b398baf.chunk.css",
-    "main.js": "/Vita-Smile-Photography/static/js/main.f79574b1.chunk.js",
-    "main.js.map": "/Vita-Smile-Photography/static/js/main.f79574b1.chunk.js.map",
+    "main.js": "/Vita-Smile-Photography/static/js/main.cab2ec37.chunk.js",
+    "main.js.map": "/Vita-Smile-Photography/static/js/main.cab2ec37.chunk.js.map",
     "runtime~main.js": "/Vita-Smile-Photography/static/js/runtime~main.ae49b852.js",
     "runtime~main.js.map": "/Vita-Smile-Photography/static/js/runtime~main.ae49b852.js.map",
-    "static/js/2.d0485e8a.chunk.js": "/Vita-Smile-Photography/static/js/2.d0485e8a.chunk.js",
-    "static/js/2.d0485e8a.chunk.js.map": "/Vita-Smile-Photography/static/js/2.d0485e8a.chunk.js.map",
+    "static/js/2.8048b305.chunk.js": "/Vita-Smile-Photography/static/js/2.8048b305.chunk.js",
+    "static/js/2.8048b305.chunk.js.map": "/Vita-Smile-Photography/static/js/2.8048b305.chunk.js.map",
     "index.html": "/Vita-Smile-Photography/index.html",
-    "precache-manifest.878e0489d538af5f059c4af82555898a.js": "/Vita-Smile-Photography/precache-manifest.878e0489d538af5f059c4af82555898a.js",
+    "precache-manifest.1ad87a3cc7529eb88778240ea77759a6.js": "/Vita-Smile-Photography/precache-manifest.1ad87a3cc7529eb88778240ea77759a6.js",
     "service-worker.js": "/Vita-Smile-Photography/service-worker.js",
     "static/css/main.1b398baf.chunk.css.map": "/Vita-Smile-Photography/static/css/main.1b398baf.chunk.css.map",
     "static/media/angelOne.jpg": "/Vita-Smile-Photography/static/media/angelOne.7876cd2d.jpg",
@@ -40,13 +40,13 @@
     "static/media/portrait5.png": "/Vita-Smile-Photography/static/media/portrait5.64313a6d.png",
     "static/media/portrait6.png": "/Vita-Smile-Photography/static/media/portrait6.90c36346.png",
     "static/media/vaucherWithRibbon.png": "/Vita-Smile-Photography/static/media/vaucherWithRibbon.426c4672.png",
-    "static/media/wedding1.png": "/Vita-Smile-Photography/static/media/wedding1.a8f03485.png",
-    "static/media/wedding2.png": "/Vita-Smile-Photography/static/media/wedding2.00c5fe7c.png",
-    "static/media/wedding3.png": "/Vita-Smile-Photography/static/media/wedding3.e42ff22c.png",
-    "static/media/wedding4.png": "/Vita-Smile-Photography/static/media/wedding4.9d77bf25.png",
-    "static/media/wedding5.png": "/Vita-Smile-Photography/static/media/wedding5.ff7ac773.png",
-    "static/media/wedding6.png": "/Vita-Smile-Photography/static/media/wedding6.6f712152.png",
-    "static/media/wedding7.png": "/Vita-Smile-Photography/static/media/wedding7.7f237294.png",
-    "static/media/wedding8.png": "/Vita-Smile-Photography/static/media/wedding8.f70ee51f.png"
+    "static/media/wedding1.png": "/Vita-Smile-Photography/static/media/wedding1.dbcfe074.png",
+    "static/media/wedding2.png": "/Vita-Smile-Photography/static/media/wedding2.c63c24b1.png",
+    "static/media/wedding3.png": "/Vita-Smile-Photography/static/media/wedding3.5c7992eb.png",
+    "static/media/wedding4.png": "/Vita-Smile-Photography/static/media/wedding4.ed692340.png",
+    "static/media/wedding5.png": "/Vita-Smile-Photography/static/media/wedding5.27a116bf.png",
+    "static/media/wedding6.png": "/Vita-Smile-Photography/static/media/wedding6.357116f3.png",
+    "static/media/wedding7.png": "/Vita-Smile-Photography/static/media/wedding7.90f6c823.png",
+    "static/media/wedding8.png": "/Vita-Smile-Photography/static/media/wedding8.d90ec547.png"
   }
 }
