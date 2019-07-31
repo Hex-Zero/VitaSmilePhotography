@@ -4,7 +4,6 @@ import Nav from "react-bootstrap/Nav"
 import NavDropdown from "react-bootstrap/NavDropdown"
 import styled from "styled-components"
 import { Link } from "react-router-dom"
-import Phone from "./Phone"
 import Modal from "react-bootstrap/Modal"
 import Button from "react-bootstrap/Button"
 const Navigation = () => {
@@ -13,7 +12,6 @@ const Navigation = () => {
   const handleShow = () => setShow(true)
   return (
     <Styled>
-      <Phone />
       <Navbar collapseOnSelect={true} className="NavBar" bg="light" expand="md">
         <Navbar.Brand as={Link} href="#" to="/Vita-Smile-Photography/">
           Vita Smile Photography
@@ -45,17 +43,17 @@ const Navigation = () => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <Modal show={show} onHide={handleClose}>
+      <Modal size="sm" show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Call Or Email Me</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Number here</Modal.Body>
-        <Modal.Body>Email here</Modal.Body>
+        <Modal.Body>Phone : 07817916583</Modal.Body>
+        <Modal.Body>E-mail : Vita.Brasiunaite@gmail.com</Modal.Body>
         <Modal.Footer>
-          <Button as="a" variant="warning" href="tel:+447933640414">
+          <Button as="a" variant="warning" href="tel:+447817916583">
             Call Now
           </Button>
-          <Button as="a" variant="warning" href="mailto:hex0@live.com">
+          <Button as="a" variant="warning" href="mailto:Vita.Brasiunaite@gmail.com">
             Email Now
           </Button>
           {/* <Button variant="secondary" onClick={handleClose}>
@@ -70,7 +68,12 @@ const Navigation = () => {
 const Styled = styled.div`
   display: flex;
   justify-content: center;
-  width: 100%;
+  .dropdown-item.active,
+  .dropdown-item:active {
+    color: gray;
+    text-decoration: none;
+    background-color: white;
+  }
   .navbar-toggler {
     font-size: 1rem;
   }
@@ -89,6 +92,7 @@ const Styled = styled.div`
       rgba(15, 60, 120, 1) 100%
     );
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 0;
     width: 267px;

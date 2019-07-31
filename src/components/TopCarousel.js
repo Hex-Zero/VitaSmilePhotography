@@ -24,10 +24,10 @@ const TopCarousel = ({ style, id, src }) => {
           pauseOnHover={false}
           direction={direction}
           onSelect={handleSelect}>
-          {src.map(c => {
+          {src.map(current => {
             return (
               <Carousel.Item key={uuid()}>
-                <img className=" .img-fluid d-block w-100" src={c} alt="First slide" />
+                <img className=" .img-fluid d-block w-100" src={current} alt="First slide" />
                 {/* <Carousel.Caption>
                   <h3>First slide label</h3>
                   <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
