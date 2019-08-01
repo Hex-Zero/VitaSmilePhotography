@@ -1,31 +1,55 @@
-import React from "react"
+import React, { useState } from "react"
 import styled from "styled-components"
 import Card from "react-bootstrap/Card"
-import Button from "react-bootstrap/Button"
-import angelOne from "../assets/topcarousel/angelOne.jpg"
-import angelTwo from "../assets/topcarousel/angelTwo.jpg"
+import { aboutContent, aboutContent2 } from "../assets/contentTXT/aboutContent"
+import Carousel from "react-bootstrap/Carousel"
+import back from "../assets/back.jpg"
+import stars from "../assets/5stars.png"
+import { Dovile, Carly, Ale, Jurga, Sue, Sky, Dan, Eva } from "../assets/contentTXT/PeopleSay"
+import uuid from "uuid"
 const About = () => {
+  const [index, setIndex] = useState(0)
+  const [direction, setDirection] = useState(null)
+  const [comentArray] = useState([Dovile, Carly, Ale, Jurga, Sue, Sky, Dan, Eva])
+  const [names] = useState([
+    "Dovilė Valčiukienė",
+    "Carly Chaffe",
+    "Ale Gorciu",
+    "Jurga Matulaitytė Ivaškina",
+    "Sue Greenwood",
+    "Sky Florence Rosie Klawinska",
+    "Dan Gutteridge",
+    "Eva Rothwell"
+  ])
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex)
+    setDirection(e.direction)
+  }
+  console.log(comentArray)
   return (
     <Styled>
       <Card>
-        <Card.Img variant="top" src={angelOne} />
         <Card.Body>
           <Card.Title>Family Run Photography Business</Card.Title>
-          <Card.Text>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Quis risus sed vulputate odio ut enim
-            blandit volutpat maecenas. Enim facilisis gravida neque convallis a cras semper auctor
-            neque. Massa id neque aliquam vestibulum morbi. Felis donec et odio pellentesque.
-            Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Nunc vel risus
-            commodo viverra maecenas accumsan lacus vel. Sed arcu non odio euismod lacinia. Amet
-            commodo nulla facilisi nullam vehicula. Diam maecenas sed enim ut sem viverra. Porttitor
-            rhoncus dolor purus non enim praesent elementum facilisis. Sollicitudin nibh sit amet
-            commodo nulla. Imperdiet massa tincidunt nunc pulvinar. Nullam eget felis eget nunc
-            lobortis mattis aliquam. Vitae elementum curabitur vitae nunc sed velit dignissim.
-          </Card.Text>
-          <Button variant="warning">Facebook Page</Button>
+          <Card.Text>{aboutContent}</Card.Text>
+          <Card.Title>What My Customers Say About Me</Card.Title>
+          <Carousel activeIndex={index} direction={direction} onSelect={handleSelect}>
+            {comentArray.map((current, i) => {
+              return (
+                <Carousel.Item key={uuid()}>
+                  <img className="d-block w-100" src={back} alt="First slide" />
+                  <Carousel.Caption>
+                    <h6>{names[i]}</h6>
+                    <p className="text">{current}</p>
+                    <img className="Stars" src={stars} alt="Five Stars" />
+                  </Carousel.Caption>
+                </Carousel.Item>
+              )
+            })}
+          </Carousel>
+          <Card.Text>{aboutContent2}</Card.Text>
         </Card.Body>
-        <Card.Img variant="top" src={angelTwo} />
       </Card>
     </Styled>
   )
@@ -33,7 +57,30 @@ const About = () => {
 const Styled = styled.div`
   display: flexbox;
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 56px;
+  .card-title {
+    text-align: center;
+  }
+  .carousel {
+    width: 350px;
+    margin: auto;
+  }
+  .carousel-inner {
+    border-radius: 7px;
+  }
+  .carousel-caption {
+    padding: 0;
+    color: gray;
+  }
+  .text {
+    margin: 0;
+    font-size: 0.74rem;
+  }
+  .Stars {
+    position: relative;
+    width: 166px;
+    z-index: -1;
+  }
   .card {
     width: 66.6%;
   }

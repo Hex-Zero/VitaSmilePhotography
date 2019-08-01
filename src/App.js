@@ -5,6 +5,7 @@ import Home from "./components/Home"
 import { BrowserRouter as Router, Route } from "react-router-dom"
 import About from "./components/About"
 import Pricing from "./components/Pricing"
+import Footer from "./components/Footer"
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Route path="/Vita-Smile-Photography/About" component={About} />
       <Route path="/Vita-Smile-Photography/Pricing" component={Pricing} />
       <SocialMedia />
+      <Footer />
     </Router>
   )
 }

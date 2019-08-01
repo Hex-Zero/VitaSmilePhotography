@@ -27,7 +27,7 @@ const TopCarousel = ({ style, id, src }) => {
           {src.map(current => {
             return (
               <Carousel.Item key={uuid()}>
-                <img className=" .img-fluid d-block w-100" src={current} alt="First slide" />
+                <img className=" .img-fluid d-block w-100" src={current} alt="Slide" />
                 {/* <Carousel.Caption>
                   <h3>First slide label</h3>
                   <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -44,7 +44,6 @@ const TopCarousel = ({ style, id, src }) => {
 const Styled = styled.div`
   .caruselWrapper {
     background: linear-gradient(90deg, rgb(4, 5, 119) 0%, rgb(28, 1, 76) 48%, rgba(4, 5, 119) 100%);
-
     width: 100%;
   }
   .Car1 {

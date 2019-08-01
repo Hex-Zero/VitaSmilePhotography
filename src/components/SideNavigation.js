@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import ButtonGroup from "react-bootstrap/ButtonGroup"
 import styled from "styled-components"
 import AnchorLink from "react-anchor-link-smooth-scroll"
@@ -8,14 +8,12 @@ import Party from "../assets/sideIcons/party.png"
 import Portrait from "../assets/sideIcons/portrait1.png"
 
 const SideNavigation = () => {
-  const scrollList = ["#Weddings", "#Party", "#BabyShowers", "#Portrait"]
-  const icons = [Weddings, Party, BabyShowers, Portrait]
-  let index = -1
+  const [scrollList] = useState(["#Weddings", "#Party", "#BabyShowers", "#Portrait"])
+  const [icons] = useState([Weddings, Party, BabyShowers, Portrait])
   return (
     <Styled>
       <ButtonGroup vertical>
-        {scrollList.map(current => {
-          index++
+        {scrollList.map((current, i) => {
           return (
             <AnchorLink
               key={current.slice(1)}
@@ -23,7 +21,7 @@ const SideNavigation = () => {
               className="btn btn-indigo"
               href={current}
               offset="56">
-              <img src={icons[index]} alt={current.slice(1)} />
+              <img src={icons[i]} alt={current.slice(1)} />
             </AnchorLink>
           )
         })}
@@ -44,7 +42,7 @@ const Styled = styled.div`
     width: 16px;
   }
   position: fixed;
-  top: 380px;
+  top: 330px;
   right: 0;
   z-index: 30;
 

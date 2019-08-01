@@ -66,6 +66,7 @@ const Navigation = () => {
 }
 
 const Styled = styled.div`
+  font-family: "Overpass";
   display: flex;
   justify-content: center;
   .dropdown-item.active,
@@ -98,10 +99,10 @@ const Styled = styled.div`
     width: 267px;
   }
   .nav-link {
-    font-size: 13px;
+    font-size: 15px;
   }
   .dropdown-item {
-    font-size: 13px;
+    font-size: 15px;
   }
   .NavBar {
     padding: 0.378rem 1rem;

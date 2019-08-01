@@ -12,29 +12,32 @@ const Pricing = () => {
           <Table striped bordered hover>
             <thead>
               <tr>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Username</th>
+                <th>Event</th>
+                <th>Duration</th>
+                <th>Hourly Rate</th>
+                <th>Photos Per Hour</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+                <td>Weddings</td>
+                <td>2-6 hours</td>
+                <td>120£</td>
+                <td>10</td>
               </tr>
               <tr>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
+                <td>Parties</td>
+                <td>1-2 hours</td>
+                <td>80£</td>
+                <td>8</td>
               </tr>
               <tr>
-                <td colSpan="2">Larry the Bird</td>
-                <td>@twitter</td>
+                <td colSpan="2">Baby Showers</td>
+                <td>90£</td>
+                <td>9</td>
               </tr>
             </tbody>
           </Table>
-          <Button variant="primary">Go somewhere</Button>
           <hr />
           <Card.Img variant="top" src={voucher} />
         </Card.Body>
@@ -47,6 +50,7 @@ const Styled = styled.div`
   justify-content: center;
   margin-top: 70px;
   width: 100%;
+  text-align: center;
 
   .table {
     margin: 0 auto;

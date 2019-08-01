@@ -9,7 +9,7 @@ const SocialMedia = () => {
     <Styled>
       <a
         className="facebook"
-        href="https://urlgeni.us/facebook/vita.smile"
+        href="https://www.facebook.com/vitasmilephotography/"
         target="_blank"
         rel="noopener noreferrer">
         <FaFacebookSquare size={43} />
@@ -31,7 +31,7 @@ const Styled = styled.div`
     display: block;
     position: fixed;
     right: 1px;
-    top: 553px;
+    top: 503px;
   }
   .instagram {
     -webkit-text-fill-color: transparent;
@@ -40,7 +40,7 @@ const Styled = styled.div`
     display: block;
     position: fixed;
     right: 0;
-    top: 597px;
+    top: 547px;
     background: url(${instaIcon});
     background-size: 41px;
     background-repeat: no-repeat;
