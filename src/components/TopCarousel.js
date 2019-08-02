@@ -18,7 +18,7 @@ const TopCarousel = ({ style, id, src }) => {
         <Carousel
           style={style}
           id={id}
-          interval={2300}
+          interval={2450}
           className="Car1"
           activeIndex={index}
           pauseOnHover={false}

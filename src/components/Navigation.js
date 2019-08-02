@@ -56,9 +56,6 @@ const Navigation = () => {
           <Button as="a" variant="warning" href="mailto:Vita.Brasiunaite@gmail.com">
             Email Now
           </Button>
-          {/* <Button variant="secondary" onClick={handleClose}>
-              Close
-            </Button> */}
         </Modal.Footer>
       </Modal>
     </Styled>
@@ -76,7 +73,8 @@ const Styled = styled.div`
     background-color: white;
   }
   .navbar-toggler {
-    font-size: 1rem;
+    padding: 4px 8px;
+    font-size: 0.95rem;
   }
   .modal-content {
     width: 200px;
@@ -116,6 +114,13 @@ const Styled = styled.div`
     .NavBar {
       width: 100%;
       padding-left: 5%;
+    }
+  }
+
+  @media only screen and (min-width: 1040px) {
+    .NavBar {
+      margin: 0 auto;
+      width: 1040px;
     }
   }
 `

@@ -2,7 +2,6 @@ import React from "react"
 import styled from "styled-components"
 import Table from "react-bootstrap/Table"
 import Card from "react-bootstrap/Card"
-import Button from "react-bootstrap/Button"
 import voucher from "../assets/Pricing/vaucherWithRibbon.png"
 const Pricing = () => {
   return (
@@ -40,6 +39,7 @@ const Pricing = () => {
           </Table>
           <hr />
           <Card.Img variant="top" src={voucher} />
+          <hr />
         </Card.Body>
       </Card>
     </Styled>
@@ -48,7 +48,7 @@ const Pricing = () => {
 const Styled = styled.div`
   display: flexbox;
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 57px;
   width: 100%;
   text-align: center;
 
@@ -64,6 +64,14 @@ const Styled = styled.div`
   @media only screen and (max-width: 767px) {
     .card {
       width: 100%;
+    }
+    .table {
+      width: 100%;
+    }
+  }
+  @media only screen and (min-width: 1040px) {
+    .card {
+      width: 1040px;
     }
   }
 `

@@ -10,17 +10,17 @@ const Footer = () => {
     <Styled>
       <Container fluid={true}>
         <Row noGutters={true}>
-          <Col md={1} xs={2}>
+          <Col xs={2}>
             <p className="p">Powered by: </p>
           </Col>
-          <Col md={1} xs={2}>
+          <Col xs={2}>
             <img src={reactlogo} alt="React Bootstrap" />
             <img src={reactlo} alt="React" />
           </Col>
-          <Col md={{ span: 1, offset: 8 }} xs={{ span: 2, offset: 4 }}>
+          <Col xs={{ span: 2, offset: 4 }}>
             <p className="p">Made by: </p>
           </Col>
-          <Col md={1} xs={2}>
+          <Col className="hexlink" xs={2}>
             <a href="https://github.com/Hex-Zero" target="__blank">
               <span id="Hex">Hex</span>
               <span id="Zero">Zero</span>
@@ -32,8 +32,11 @@ const Footer = () => {
   )
 }
 const Styled = styled.div`
-  width: 100%;
-  .container {
+  margin: 0 auto;
+  width: 66.6%;
+  .container-fluid {
+    margin-top: 5px;
+    border: 1px solid #e6e6e6;
     background-image: linear-gradient(white, #e6e6e6);
     width: 100%;
   }
@@ -80,6 +83,17 @@ const Styled = styled.div`
     width: 30px;
     height: 30px;
     padding-right: 4px;
+  }
+  .hexlink {
+    display: flex;
+    align-items: center;
+  }
+  @media only screen and (max-width: 767px) {
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 1040px) {
+    width: 1040px;
   }
 `
 export default Footer

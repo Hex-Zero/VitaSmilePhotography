@@ -57,7 +57,7 @@ const About = () => {
 const Styled = styled.div`
   display: flexbox;
   justify-content: center;
-  margin-top: 56px;
+  margin-top: 57px;
   .card-title {
     text-align: center;
   }
@@ -88,6 +88,11 @@ const Styled = styled.div`
   @media only screen and (max-width: 767px) {
     .card {
       width: 100%;
+    }
+  }
+  @media only screen and (min-width: 1040px) {
+    .card {
+      width: 1040px;
     }
   }
 `
