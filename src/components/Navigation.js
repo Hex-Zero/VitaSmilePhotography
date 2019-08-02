@@ -13,16 +13,16 @@ const Navigation = () => {
   return (
     <Styled>
       <Navbar collapseOnSelect={true} className="NavBar" bg="light" expand="md">
-        <Navbar.Brand as={Link} href="#" to="/Vita-Smile-Photography/">
+        <Navbar.Brand as={Link} href="#" to="/">
           Vita Smile Photography
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end Links" id="basic-navbar-nav">
           <Nav>
-            <Nav.Link as={Link} href="#" to="/Vita-Smile-Photography/">
+            <Nav.Link as={Link} href="#" to="/">
               Home
             </Nav.Link>
-            <Nav.Link as={Link} href="#" to="/Vita-Smile-Photography/About">
+            <Nav.Link as={Link} href="#" to="/About">
               About
             </Nav.Link>
             <NavDropdown className="Links" title="Contact" id="basic-nav-dropdown">
@@ -36,7 +36,7 @@ const Navigation = () => {
                 Location
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} href="#" to="/Vita-Smile-Photography/Pricing">
+              <NavDropdown.Item as={Link} href="#" to="/Pricing">
                 Pricing
               </NavDropdown.Item>
             </NavDropdown>

@@ -11,9 +11,9 @@ const App = () => {
   return (
     <Router>
       <Navigation />
-      <Route path="/Vita-Smile-Photography/" exact component={Home} />
-      <Route path="/Vita-Smile-Photography/About" component={About} />
-      <Route path="/Vita-Smile-Photography/Pricing" component={Pricing} />
+      <Route path="/" exact component={Home} />
+      <Route path="/About" component={About} />
+      <Route path="/Pricing" component={Pricing} />
       <SocialMedia />
       <Footer />
     </Router>

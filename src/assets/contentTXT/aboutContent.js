@@ -7,8 +7,8 @@ export const aboutContent = (
     allows me to meet incredible people and gives me an opportunity to listen to their amazing
     stories and present them to others with my photographs.
     <br />
-    Now even my kids enjoy helping me out with the busy work of photography. My daughter Samantha
-    and her young brother Ironas. Earning themselves some extra allowance in the process.
+    Now even my kids enjoy helping me out with the busy work of photography. My daughter Samanta and
+    her young brother Aironas. Earning themselves some extra allowance in the process.
   </>
 )
 export const aboutContent2 = (

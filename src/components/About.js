@@ -96,5 +96,4 @@ const Styled = styled.div`
     }
   }
 `
-
 export default About
