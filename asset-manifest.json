@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.7086c508.chunk.css",
-    "main.js": "/static/js/main.d444be29.chunk.js",
-    "main.js.map": "/static/js/main.d444be29.chunk.js.map",
+    "main.js": "/static/js/main.ff279299.chunk.js",
+    "main.js.map": "/static/js/main.ff279299.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.185c8223.chunk.js": "/static/js/2.185c8223.chunk.js",
     "static/js/2.185c8223.chunk.js.map": "/static/js/2.185c8223.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f9c6b11790f084ecf707406674933fae.js": "/precache-manifest.f9c6b11790f084ecf707406674933fae.js",
+    "precache-manifest.f50a408125fefe5a7706fe4bec768a65.js": "/precache-manifest.f50a408125fefe5a7706fe4bec768a65.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.7086c508.chunk.css.map": "/static/css/main.7086c508.chunk.css.map",
     "static/media/5stars.png": "/static/media/5stars.4b79ec8c.png",
@@ -42,12 +42,12 @@
     "static/media/react_bootstrap_logo.png": "/static/media/react_bootstrap_logo.11dd46f9.png",
     "static/media/reactlogo.png": "/static/media/reactlogo.abf87b54.png",
     "static/media/vaucherWithRibbon.png": "/static/media/vaucherWithRibbon.426c4672.png",
-    "static/media/wedding1.jpg": "/static/media/wedding1.601b723a.jpg",
+    "static/media/wedding1.jpg": "/static/media/wedding1.0d171a7a.jpg",
     "static/media/wedding2.jpg": "/static/media/wedding2.77a274e6.jpg",
-    "static/media/wedding3.jpg": "/static/media/wedding3.72578a38.jpg",
+    "static/media/wedding3.jpg": "/static/media/wedding3.acb28354.jpg",
     "static/media/wedding4.jpg": "/static/media/wedding4.499ddd48.jpg",
-    "static/media/wedding5.jpg": "/static/media/wedding5.78c015bd.jpg",
-    "static/media/wedding6.jpg": "/static/media/wedding6.fa9f5a1d.jpg",
-    "static/media/wedding7.jpg": "/static/media/wedding7.7d71758b.jpg"
+    "static/media/wedding5.jpg": "/static/media/wedding5.07c01817.jpg",
+    "static/media/wedding6.jpg": "/static/media/wedding6.4c95e01e.jpg",
+    "static/media/wedding7.jpg": "/static/media/wedding7.829c83a1.jpg"
   }
 }
