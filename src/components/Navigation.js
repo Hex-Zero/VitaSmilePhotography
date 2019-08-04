@@ -31,7 +31,7 @@ const Navigation = () => {
               </NavDropdown.Item>
               <NavDropdown.Item
                 as="a"
-                href="https://www.google.com/maps/@52.569658,-0.2263321,19.33z"
+                href="https://www.google.com/maps/dir//Vita-Smile-Photography,+11+James+Ave,+Peterborough+PE1+5BL/@52.5895663,-0.271727,13z/"
                 target="_blank">
                 Location
               </NavDropdown.Item>
