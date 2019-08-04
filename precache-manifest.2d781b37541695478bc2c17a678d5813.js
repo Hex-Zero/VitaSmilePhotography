@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4be402b3a19087418677204c44a3db13",
+    "revision": "a83f98f9612e6ae33ce2ed89ed863663",
     "url": "/index.html"
   },
   {
-    "revision": "363ff7b47de5b7815107",
+    "revision": "4fb64dd0da929a579af1",
     "url": "/static/css/main.7086c508.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.36e13c43.chunk.js"
   },
   {
-    "revision": "363ff7b47de5b7815107",
-    "url": "/static/js/main.cd46d467.chunk.js"
+    "revision": "4fb64dd0da929a579af1",
+    "url": "/static/js/main.d8312691.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -132,8 +132,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/reactlogo.abf87b54.png"
   },
   {
-    "revision": "426c467263b060294873eeedfe323c82",
-    "url": "/static/media/vaucherWithRibbon.426c4672.png"
+    "revision": "544b9b3e28d17a0cc3bf41ea2dd8e40f",
+    "url": "/static/media/vaucherWithRibbon.544b9b3e.jpg"
   },
   {
     "revision": "0d171a7a4405a0af72e1ea718859858e",
