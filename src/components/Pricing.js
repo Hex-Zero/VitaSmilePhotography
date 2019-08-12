@@ -22,43 +22,43 @@ const Pricing = () => {
 							<tr>
 								<td>Wedding</td>
 								<td>2-4 hours</td>
-								<td>50£</td>
+								<td>70£</td>
 								<td>20</td>
 							</tr>
 							<tr>
 								<td>Family</td>
 								<td>60-90 minutes</td>
-								<td>65£</td>
+								<td>85£</td>
 								<td>20</td>
 							</tr>
 							<tr>
 								<td>Maternity</td>
 								<td>60-90 minutes</td>
-								<td>60£</td>
+								<td>85£</td>
 								<td>20</td>
 							</tr>
 							<tr>
 								<td>NewBorn</td>
 								<td>60 minutes</td>
-								<td>65£</td>
+								<td>85£</td>
 								<td>15</td>
 							</tr>
 							<tr>
 								<td>Portrait</td>
 								<td>1-2 hours</td>
-								<td>70£</td>
+								<td>85£</td>
 								<td>15</td>
 							</tr>
 							<tr>
 								<td>Event</td>
 								<td>1-2 hours</td>
-								<td>65£</td>
+								<td>85£</td>
 								<td>15</td>
 							</tr>
 							<tr>
 								<td>Party</td>
 								<td>1-2 hours</td>
-								<td>60£</td>
+								<td>85£</td>
 								<td>15</td>
 							</tr>
 							<tr>
@@ -78,7 +78,7 @@ const Pricing = () => {
 						every event and can be ordered over the phone. Vouchers can be sent to you
 						by mail or picked up at my studio.
 					</p>
-					<Card.Img variant="top" src={voucher} />
+					<Card.Img variant='top' src={voucher} />
 					<hr />
 				</Card.Body>
 			</Card>
