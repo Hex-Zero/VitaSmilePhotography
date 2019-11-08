@@ -5,11 +5,6 @@ const Footer = () => {
   return (
     <Styled>
       <img src={reactlo} alt="React" />
-
-      <a href="https://github.com/Hex-Zero" target="__blank">
-        <span id="Hex">Hex</span>
-        <span id="Zero">Zero</span>
-      </a>
     </Styled>
   );
 };
@@ -18,15 +13,17 @@ const Styled = styled.div`
   display: grid;
   grid-template-columns: auto auto;
   background: linear-gradient(
-    45deg,
-    rgba(193, 255, 255, 1) 0%,
-    rgba(190, 218, 255, 1) 100%
-  );
+    0deg,
+    rgba(1, 2, 97, 0.92) 0%,
+    rgba(4, 5, 117, 1) 20%,
+    rgb(0, 26, 212) 100%
+  ) !important;
   height: 45px;
   align-content: center;
   text-align: center;
   a:link {
     text-decoration: none;
+    border-radius: 5px;
   }
   a {
     margin-right: 14px;
@@ -50,14 +47,14 @@ const Styled = styled.div`
     border-color: gold;
     border-style: solid;
     background-color: gold;
-    color: rgba(248, 236, 221, 0.822);
+    color: rgba(248, 236, 221, 1);
   }
   #Zero {
     text-decoration: none;
     font-family: "Lobster", cursive;
     border-color: gold;
     border-style: solid;
-    background-color: rgba(248, 236, 221, 0.822);
+    background-color: rgba(248, 236, 221, 1);
     color: gold;
   }
   img {

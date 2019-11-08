@@ -149,7 +149,7 @@ const Styled = styled.div`
       0deg,
       rgba(1, 2, 97, 0.92) 0%,
       rgba(4, 5, 117, 1) 20%,
-      rgba(0, 0, 0, 1) 100%
+      rgb(0, 26, 212) 100%
     ) !important;
   }
   @media only screen and (max-width: 767px) {
