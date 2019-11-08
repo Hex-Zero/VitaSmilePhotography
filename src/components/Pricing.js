@@ -14,58 +14,58 @@ const Pricing = () => {
               <tr>
                 <th>Photo Shoot</th>
                 <th>Duration</th>
-                <th>Hourly Rate</th>
                 <th>Photo Amount</th>
+                <th>Hourly Rate</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>Wedding</td>
                 <td>2-4 hours</td>
-                <td>70£</td>
                 <td>20</td>
+                <td>70£</td>
               </tr>
               <tr>
                 <td>Family</td>
                 <td>60-90 minutes</td>
-                <td>85£</td>
                 <td>20</td>
+                <td>85£</td>
               </tr>
               <tr>
                 <td>Maternity</td>
                 <td>60-90 minutes</td>
-                <td>85£</td>
                 <td>20</td>
+                <td>85£</td>
               </tr>
               <tr>
                 <td>NewBorn</td>
                 <td>60 minutes</td>
-                <td>85£</td>
                 <td>15</td>
+                <td>85£</td>
               </tr>
               <tr>
                 <td>Portrait</td>
                 <td>1-2 hours</td>
-                <td>85£</td>
                 <td>15</td>
+                <td>85£</td>
               </tr>
               <tr>
                 <td>Event</td>
                 <td>1-2 hours</td>
-                <td>85£</td>
                 <td>15</td>
+                <td>85£</td>
               </tr>
               <tr>
                 <td>Party</td>
                 <td>1-2 hours</td>
-                <td>85£</td>
                 <td>15</td>
+                <td>85£</td>
               </tr>
               <tr>
                 <td>Mini-Shoots</td>
                 <td>30-40 minutes</td>
-                <td>set 65£</td>
                 <td>15</td>
+                <td>set 65£</td>
               </tr>
             </tbody>
           </Table>
@@ -91,7 +91,7 @@ const Pricing = () => {
 const Styled = styled.div`
   display: flexbox;
   justify-content: center;
-  padding-top: 109px;
+  padding-top: 91px;
 
   width: 100%;
   text-align: center;
@@ -106,8 +106,6 @@ const Styled = styled.div`
   }
 
   @media only screen and (max-width: 767px) {
-    padding-top: 91px;
-
     .card {
       width: 100%;
     }

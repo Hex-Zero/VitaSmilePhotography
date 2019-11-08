@@ -113,11 +113,9 @@ const Styled = styled.div`
   .card {
     width: 66.6%;
   }
-  padding-top: 109px;
+  padding-top: 91px;
 
   @media only screen and (max-width: 767px) {
-    padding-top: 91px;
-
     .card {
       width: 100%;
     }

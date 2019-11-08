@@ -59,11 +59,10 @@ const Home = () => {
 };
 const Styled = styled.div`
   margin: 0 auto;
+  padding-top: 91px;
 
-  padding-top: 109px;
   width: 66.6%;
   @media only screen and (max-width: 767px) {
-    padding-top: 91px;
     width: 100%;
   }
   @media only screen and (min-width: 1040px) {

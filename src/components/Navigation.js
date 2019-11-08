@@ -85,9 +85,9 @@ const Styled = styled.div`
   justify-content: center;
   .dropdown-item.active,
   .dropdown-item:active {
-    color: gray;
+    color: #212529;
     text-decoration: none;
-    background-color: white;
+    background-color: #e0b843e3;
   }
   .main-logo {
     width: 150px;
@@ -105,6 +105,9 @@ const Styled = styled.div`
       rgb(111, 81, 38) 10%,
       rgb(255, 255, 102) 100%
     );
+  }
+  .dropdown-menu {
+    background-color: #fbce49e3 !important;
   }
   /* .navbar-brand {
     font-size: 29.5px;
@@ -138,7 +141,8 @@ const Styled = styled.div`
     top: 0;
     background: linear-gradient(
       0deg,
-      rgb(4, 5, 117) 0%,
+      rgba(4, 5, 117, 0.8) 0%,
+      rgba(4, 5, 117, 1) 20%,
       rgba(0, 0, 0, 1) 100%
     ) !important;
   }
@@ -154,7 +158,7 @@ const Styled = styled.div`
 
   @media only screen and (min-width: 1040px) {
     .main-logo {
-      width: 150px;
+      width: 120px;
     }
     .NavBar {
       margin: 0 auto;
