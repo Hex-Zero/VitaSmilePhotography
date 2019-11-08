@@ -87,7 +87,7 @@ const Styled = styled.div`
   .dropdown-item:active {
     color: #212529;
     text-decoration: none;
-    background-color: #fbce49e3;
+    background-color: #fbce49;
   }
   .dropdown-item:hover {
     background-color: white;
@@ -110,7 +110,7 @@ const Styled = styled.div`
     );
   }
   .dropdown-menu {
-    background-color: #fbce49e3 !important;
+    background-color: #fbce49 !important;
   }
   /* .navbar-brand {
     font-size: 29.5px;
