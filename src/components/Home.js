@@ -1,23 +1,32 @@
-import React from "react"
-import TopCarousel from "../components/TopCarousel"
-import Cards from "../components/Cards"
-import Weddings from "../assets/contentTXT/Weddings.js"
-import baby from "../assets/contentTXT/baby.js"
-import SideNavigation from "../components/SideNavigation"
-import styled from "styled-components"
-import portraitText from "../assets/contentTXT/portrait"
-import partyText from "../assets/contentTXT/party"
-import eventText from "../assets/contentTXT/event"
-import maternityText from "../assets/contentTXT/maternity"
-import familyText from "../assets/contentTXT/family"
-import { WeddingArray, PartyArray, ParentsArray, PortraitArray } from "../assets/Arrays"
+import React from "react";
+import TopCarousel from "../components/TopCarousel";
+import Cards from "../components/Cards";
+import Weddings from "../assets/contentTXT/Weddings.js";
+import baby from "../assets/contentTXT/baby.js";
+import SideNavigation from "../components/SideNavigation";
+import styled from "styled-components";
+import portraitText from "../assets/contentTXT/portrait";
+import partyText from "../assets/contentTXT/party";
+import eventText from "../assets/contentTXT/event";
+import maternityText from "../assets/contentTXT/maternity";
+import familyText from "../assets/contentTXT/family";
+import {
+  WeddingArray,
+  PartyArray,
+  ParentsArray,
+  PortraitArray
+} from "../assets/Arrays";
 
 const Home = () => {
   return (
     <Styled>
       <SideNavigation />
       <TopCarousel id="Weddings" src={WeddingArray} />
-      <Cards name="Weddings" content1={Weddings} title1="Wedding Photography Peterborough" />
+      <Cards
+        name="Weddings"
+        content1={Weddings}
+        title1="Wedding Photography Peterborough"
+      />
       <TopCarousel id="Party" src={PartyArray} />
       <Cards
         name="Parties and Events"
@@ -40,21 +49,26 @@ const Home = () => {
         content3={familyText}
       />
       <TopCarousel id="Portrait" src={PortraitArray} />
-      <Cards name="Portrait" content1={portraitText} title1="Portrait Photography Peterborough " />
+      <Cards
+        name="Portrait"
+        content1={portraitText}
+        title1="Portrait Photography Peterborough "
+      />
     </Styled>
-  )
-}
+  );
+};
 const Styled = styled.div`
   margin: 0 auto;
 
-  padding-top: 56px;
+  padding-top: 109px;
   width: 66.6%;
   @media only screen and (max-width: 767px) {
+    padding-top: 91px;
     width: 100%;
   }
   @media only screen and (min-width: 1040px) {
     width: 1040px;
   }
-`
+`;
 
-export default Home
+export default Home;
