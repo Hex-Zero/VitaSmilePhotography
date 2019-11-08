@@ -54,13 +54,16 @@ const Home = () => {
         content1={portraitText}
         title1="Portrait Photography Peterborough "
       />
+      <div className="white-space"></div>
     </Styled>
   );
 };
 const Styled = styled.div`
   margin: 0 auto;
   padding-top: 91px;
-
+  .white-space {
+    height: 50px;
+  }
   width: 66.6%;
   @media only screen and (max-width: 767px) {
     width: 100%;

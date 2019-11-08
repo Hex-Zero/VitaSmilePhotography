@@ -87,7 +87,10 @@ const Styled = styled.div`
   .dropdown-item:active {
     color: #212529;
     text-decoration: none;
-    background-color: #e0b843e3;
+    background-color: #fbce49e3;
+  }
+  .dropdown-item:hover {
+    background-color: white;
   }
   .main-logo {
     width: 150px;
@@ -130,6 +133,9 @@ const Styled = styled.div`
     font-size: 15px;
     color: rgb(244, 206, 67) !important;
   }
+  .nav-link:hover {
+    color: rgb(249, 225, 136) !important ;
+  }
   .dropdown-item {
     font-size: 15px;
   }
@@ -141,7 +147,7 @@ const Styled = styled.div`
     top: 0;
     background: linear-gradient(
       0deg,
-      rgba(4, 5, 117, 0.8) 0%,
+      rgba(1, 2, 97, 0.92) 0%,
       rgba(4, 5, 117, 1) 20%,
       rgba(0, 0, 0, 1) 100%
     ) !important;

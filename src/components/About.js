@@ -87,6 +87,7 @@ const About = () => {
 const Styled = styled.div`
   display: flexbox;
   justify-content: center;
+  min-height: 93vh;
   .card-title {
     text-align: center;
   }
