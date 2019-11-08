@@ -92,7 +92,7 @@ const Styled = styled.div`
   display: flexbox;
   justify-content: center;
   padding-top: 91px;
-
+  min-height: 93vh;
   width: 100%;
   text-align: center;
 
